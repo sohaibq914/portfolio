@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "a1b2",
+    "date": "May 20, 2024",
+    "title": "1 Year of Web Development",
+    "featuredParagraph": ["Around this time last year, when I had just graduated from high school, I decided to take web development seriously. I have to admit, I did some basic web development in high school, but it was barely anything. To expand my web development skills, I scoured through many resources, but one stood out: Colt Steele's Web Developer Bootcamp on Udemy. That's how I started, because it offered a very structured way to learn."],
+    "contents": [
+      {
+        "para": ["During the summer before college, I learned the basics of HTML and CSS. Most of the topics were pretty simple, but there were a few I struggled with, such as CSS Flexbox. However, thanks to Bootstrap's grid system, scaling and responsiveness became much easier without the need for media queries. I also wanted to work on a full-fledged project while taking the course so I could practice the skills I learned. So, I decided to build a website for my dad. Most of my time was spent not just passively following along, but actually working on that website. I remember the navbar took forever to complete, but I learned a lot about positioning. I also learned how to manipulate elements with the DOM, which I thought was pretty cool at the time. But now, I never touch that because of ReactJS. And that brings us to the end of my web development progress for the summer."]
+      },
+      {
+        "para": ["Progress was slow in the fall semester of college because I was adjusting to college and dealing with unexpected life events. However, I did learn Node.js, which is essentially JavaScript for the backend. I also picked up Express and MongoDB. By now, I have the tools to build a full-stack website. From the course, I did exactly that. I went on to build YelpCamp, which not only involves the MERN stack but also covers topics like security, cookies/sessions, and more."]
+      },
+      {
+        "para": ["Having completed most of the course, my goal for the second semester was to apply these skills to my dad's website. Although I was adjusting to college, the courses were significantly harder, which made working on personal projects difficult. So, I literally did the entire backend for the website during my spring break. Honestly, I was surprised by how smoothly implementing the backend went. The only slightly difficult part was setting up payment using Stripe, which requires you to use a webhook. Interestingly, the PayPal integration was very straightforward. And before I knew it, I had finished the backend."]
+      },
+      {
+        "para": ["Now it's summer again, and my plan is to learn React.js and Next.js. I finally completed Colt's course by going through the React sections, but they didn't go in-depth and were outdated. So I decided to buy Jonas's React course, which does a deep dive into the latest React 18. And so here we are now, where I'm learning React and Next.js."]
+      }
+    ]
+  },
+  {
+    "slug": "c3d4",
+    "date": "May 20, 2024",
+    "title": "Fitness Log",
+    "featuredParagraph": ["I've been skinny most of my life and have made numerous attempts to gain weight, but I've never been consistent. By sharing this here, I hope to hold myself accountable and document my journey to becoming absolutely ripped."],
+    "contents": [
+      {
+        "para": ["By end of summer: 115"]
+      },
+      {
+        "para": ["Week of 5/20: 105.6 <br>"]
+      }
+    ]
+  }
+]
