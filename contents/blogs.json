@@ -22,7 +22,7 @@
   {
     "slug": "c3d4",
     "date": "May 20, 2024",
-    "title": "Fitness Log",
+    "title": "Road to Ripped",
     "featuredParagraph": ["I've been skinny most of my life and have made numerous attempts to gain weight, but I've never been consistent. By sharing this here, I hope to hold myself accountable and document my journey to becoming absolutely ripped."],
     "contents": [
       {
@@ -30,6 +30,18 @@
       },
       {
         "para": ["Week of 5/20: 105.6 <br>"]
+      }
+    ]
+  },
+  {
+    "slug": "e5f6",
+    "date": "May 22, 2024",
+    "title": "Map to MAANG",
+    "featuredParagraph": ["Every CS student's dream is to get into MAANG (Microsoft, Apple, Amazon, Netflix, Google). This has been my aspiration ever since I entered college. However, a goal without a plan is just a dream. Therefore, I am going to outline my roadmap to achieve my goal of joining MAANG by summer 2025."],
+    "contents": [
+      {
+        "title": "2024 Summer",
+        "para": ["• Get AWS Cloud Practitioner Certificate<br>• Solve 1-2 Leetcode problems per day<br>• Pass CS 251 (DSA)"]
       }
     ]
   }
