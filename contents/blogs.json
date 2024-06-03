@@ -18,31 +18,5 @@
         "para": ["Now it's summer again, and my plan is to learn React.js and Next.js. I finally completed Colt's course by going through the React sections, but they didn't go in-depth and were outdated. So I decided to buy Jonas's React course, which does a deep dive into the latest React 18. And so here we are now, where I'm learning React and Next.js."]
       }
     ]
-  },
-  {
-    "slug": "c3d4",
-    "date": "May 20, 2024",
-    "title": "Road to Ripped",
-    "featuredParagraph": ["I've been skinny most of my life and have made numerous attempts to gain weight, but I've never been consistent. By sharing this here, I hope to hold myself accountable and document my journey to becoming absolutely ripped."],
-    "contents": [
-      {
-        "para": ["By end of summer: 115"]
-      },
-      {
-        "para": ["Week of 5/20: 105.6 <br>Week of 5/27: 108"]
-      }
-    ]
-  },
-  {
-    "slug": "e5f6",
-    "date": "May 22, 2024",
-    "title": "Map to MAANG",
-    "featuredParagraph": ["Every CS student's dream is to get into MAANG (Microsoft, Apple, Amazon, Netflix, Google). This has been my aspiration ever since I entered college. However, a goal without a plan is just a dream. Therefore, I am going to outline my roadmap to achieve my goal of joining MAANG by summer 2025."],
-    "contents": [
-      {
-        "title": "2024 Summer",
-        "para": ["• Get AWS Cloud Practitioner Certificate (June 5)<br>• Solve 1-2 Leetcode problems per day<br>• Pass CS 251 (DSA)"]
-      }
-    ]
   }
 ]
