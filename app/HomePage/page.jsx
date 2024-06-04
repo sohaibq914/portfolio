@@ -5,8 +5,7 @@ import { PiCodeThin } from "react-icons/pi";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
 
-import blogsData from "@/contents/blogs.json"
-
+import blogsData from "@/contents/blogs.json";
 
 function Homepage() {
   const blogs = blogsData;
@@ -32,12 +31,11 @@ function Homepage() {
 
             <div>
               <h1 className="text-2xl font-RubikMedium text-neutral-300">
-                Semicolon,{" "}
-                <span className="text-sm text-neutral-400">A Dev Blog</span>
+                Semicolon, <span className="text-sm text-neutral-400">A Dev Blog</span>
               </h1>
               <p className="max-w-sm text-neutral-400 text-sm">
-                I design and code beautifully simple things, and <br />{" "}
-                occasionally i write about them
+                I code simple things, and occasionally I write
+                <br /> about them to potentially help others
               </p>
             </div>
           </div>
@@ -45,28 +43,19 @@ function Homepage() {
           <div className="border border-neutral-700 my-5" />
 
           <div className="  bg-[#1C1C1C] rounded-lg text-neutral-400">
-
-          {blogs.map((blog, index) => (
-        <Link key={index} href={`/dashboard/${blog.slug}`}>
-          <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
-            <div className="flex items-center gap-x-3">
-              {blog.featuredImage && (
-                <Image
-                  width={1000}
-                  height={1000}
-                  className="w-24 h-24 object-cover rounded-md"
-                  src={blog.featuredImage}
-                  alt=""
-                />
-              )}
-              <div>
-                <span className="text-sm">{blog.date}</span>
-                <h2 className="text-sm font-RubikMedium">{blog.title}</h2>
-              </div>
-            </div>
-          </div>
-        </Link>
-      ))}
+            {blogs.map((blog, index) => (
+              <Link key={index} href={`/dashboard/${blog.slug}`}>
+                <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
+                  <div className="flex items-center gap-x-3">
+                    {blog.featuredImage && <Image width={1000} height={1000} className="w-24 h-24 object-cover rounded-md" src={blog.featuredImage} alt="" />}
+                    <div>
+                      <span className="text-sm">{blog.date}</span>
+                      <h2 className="text-sm font-RubikMedium">{blog.title}</h2>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
             {/* <Link href={"/dashboard/djdj"}>
               <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
                 <div className="  flex items-center gap-x-3">
@@ -122,9 +111,9 @@ function Homepage() {
             </div>
           </div> */}
 
-          {/* without image */}
+            {/* without image */}
 
-          {/* <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+            {/* <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <div>
@@ -157,9 +146,9 @@ function Homepage() {
             </div>
           </div> */}
 
-          {/* With image */}
+            {/* With image */}
 
-          {/* <div className=" mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+            {/* <div className=" mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <Image
@@ -213,9 +202,9 @@ function Homepage() {
             </div>
           </div> */}
 
-          {/* without image */}
+            {/* without image */}
 
-          {/* <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
+            {/* <div className="mt-6  bg-[#1C1C1C] rounded-lg text-neutral-400">
             <div className="hover:bg-neutral-800 duration-200 transition-all ease-in p-4">
               <div className="  flex items-center gap-x-3">
                 <div>
@@ -233,7 +222,7 @@ function Homepage() {
               </div>
             </div>
             */}
-          </div> 
+          </div>
         </div>
       </div>
     </motion.div>
